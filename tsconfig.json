@@ -9,6 +9,14 @@
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "@controllers/*": ["static/controllers/*"],
+      "@models/*": ["static/models/*"]
+    },
+    "types": [
+      "./static/types/index.d.ts"
+    ],
     "files": [
       "./static/types/vue-shims.d.ts"
     ],
