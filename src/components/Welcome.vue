@@ -1,5 +1,5 @@
 <template>
-    $END$
+    <div class="myclass">Hello world</div>
 </template>
 <script>
   export default {

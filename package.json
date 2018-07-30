@@ -1,0 +1,49 @@
+{
+  "name": "vue-ts",
+  "version": "1.0.0",
+  "description": "A Vue.js project",
+  "author": "DominicLee <dominic@radicaltech.co.za>",
+  "private": true,
+  "scripts": {
+    "dev": "parcel index.html",
+    "start": "npm run dev",
+    "build": "node build/build.js"
+  },
+  "alias": {
+    "vue": "./node_modules/vue/dist/vue.common.js"
+  },
+  "dependencies": {
+    "vue": "^2.5.16",
+    "vue-hot-reload-api": "^2.3.0",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^2.1.0",
+    "autoprefixer": "^7.1.2",
+    "babel-core": "^6.22.1",
+    "babel-helper-vue-jsx-merge-props": "^2.0.3",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-runtime": "^6.22.0",
+    "babel-plugin-transform-vue-jsx": "^3.5.0",
+    "babel-preset-env": "^1.3.2",
+    "babel-preset-stage-2": "^6.22.0",
+    "parcel": "^1.9.7",
+    "parcel-bundler": "^1.9.7",
+    "parcel-plugin-typescript": "^1.0.0",
+    "postcss-import": "^11.1.0",
+    "postcss-url": "^7.3.2",
+    "tsc": "^1.20150623.0",
+    "typescript": "^2.9.2",
+    "vue-template-compiler": "^2.5.2",
+    "vue-ts-plugin": "^0.1.0"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
