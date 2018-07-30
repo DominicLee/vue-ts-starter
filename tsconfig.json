@@ -8,6 +8,7 @@
     "module": "es6",
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
     "files": [
       "./static/types/vue-shims.d.ts"
     ],
